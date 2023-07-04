@@ -1,0 +1,64 @@
+body {
+    background-repeat: no-repeat;
+    bottom: 0px;
+    text-align: center;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+/* HEADING ELEMENT */
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 5px lightcoral;
+}
+
+/* PARAGRAGH ELEMENT */
+p {
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 5px lightcoral;
+}
+
+/* INPUT ELEMENT */
+input {
+    text-align: center;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0.1, 0.5);
+    width: 15%;
+    height: 25px;
+}
+
+/* BUTTON CSS */
+button {
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0.1, 0.5);
+    color: black;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: cyan;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-5px);
+}
+
+#btn {
+    height: 35px;
+    width: 100px;
+}
+
+/* Footer */
+h6 {
+    justify-content: end;
+}
